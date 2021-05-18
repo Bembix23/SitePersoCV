@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Présentation</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    
+</head>
+    <body class="pres">
+        <nav class="navbar">
+            <ul class="navbar-menu">
+                <li class="navbar-item logo">
+                    <a href="index.html" class="navbar-link">
+                        <span class="navbar-title">Jules Dupuis</span>
+                        <em class="fas fa-chevron-right navbar-icon"></em>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">
+                        <em class="fas fa-user navbar-icon"></em>
+                        <span class="navbar-title">Présentation</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="competences.html" class="navbar-link">
+                        <em class="fas fa-laptop-code navbar-icon"></em>
+                        <span class="navbar-title">Compétences</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="experiences.html" class="navbar-link">
+                        <em class="fas fa-briefcase navbar-icon"></em>
+                        <span class="navbar-title">Expériences</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="hobbies.html" class="navbar-link">
+                        <em class="fas fa-heart navbar-icon"></em>
+                        <span class="navbar-title">Hobbies</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="image"></div>
+            <div class="texte">
+                <h1 class="qualités">Qualités : <span id="typed"></span></h1>
+                <h1 class="qsj">Qui suis-je ?</h1>
+                <img src="ynov-verriere.jpg" class="ynov-photo" alt="Ynov">
+                <h2 class="intro-pres">Je m'appelle Jules Dupuis, j'ai 19 ans et je suis à la recherche d'un stage dans l'informatique</h2>
+                <p class="ynov-text">Je suis étudiant en Bachelor 2 chez Bordeaux Ynov Campus</p>
+                <img src="LOGO-YNOV.png" class="ynov-logo" alt="Ynov">
+                <p class="text-lycee">Avant cela j'ai eu mon baccalauréat S mention assez bien au Lycée Les Iris à Lormont</p>
+                <p class="web-text">J'adore le développement WEB, les domaines d'applications étant infinis, je redécouvre à chaque fois tout ce que l'on peut créer avec du HTML/CSS, j'ai donc envie d'en apprendre beaucoup plus, d'appliquer mes connaissances et de me perfectionner au sein d'une entreprise</p>
+                <img src="html.jpg" class="code-image" alt=" Code HTML">
+                <p class="car-text">Je suis détenteur du Permis B et véhiculé d'une magnifique Peugeot 207</p>
+                <img src="voiture-jaune.jpg" class="peugeot-photo" alt="Peugeot 207">
+            </div>
+        </div>
+
+        <script>
+            var typed = new Typed('#typed', {
+                strings: ["Organisé", "Autonome", "Appliqué", "Curieux", "Dynamique", "A l'écoute"],
+                typeSpeed : 100,
+                backSpeed: 50,
+                loop: true
+            })
+        </script>
+    </body>
+</html>
